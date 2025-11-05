@@ -1,0 +1,13 @@
+{
+  "name": "netology-ui-tests",
+  "version": "1.0.0",
+  "description": "UI tests for Netology authorization",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
